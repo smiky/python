@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<node>
+    <data type="application/json">
+        <method>POST</method>
+        <url>http://api.rngreport.com/api/rapi</url>
+        <element>
+            <!-- action -->
+            <a>bethistory</a>
+            <!-- game -->
+            <g>1001</g>
+            <!-- user -->
+            <u>mjtesteur</u>
+            <!-- begin -->
+            <tb>2014-07-02 00:00:00</tb>
+            <!-- end -->
+            <te>2014-07-03 00:00:00</te>
+            <!-- operator -->
+            <o>68ED3ABC-6F1A-41F5-87D0-D64A1A0D9746</o>
+        </element>
+    </data>
+    <data type="application/json">
+        <method>POST</method>
+        <url>http://rngapi.fourierlabdev.com/api/rapi</url>
+        <auth-user>rnguser</auth-user>
+        <auth-pass>rnguser112233</auth-pass>
+        <element>
+            <a>bethistory</a>
+            <g>1001</g>
+            <u>01_javqueen</u>
+            <tb>2014-07-02 00:00:00</tb>
+            <te>2014-07-03 00:00:00</te>
+            <o>47517D33-1C8B-4111-8CA1-C3F850526FEF</o>
+        </element>
+    </data>
+</node>
